@@ -88,3 +88,15 @@ header {
 .hidden {
     display: none;
 }
+
+@media screen and (max-width: 1280px){
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        height: 80px;
+    }
+    footer{
+        display: none;
+    }
+}
