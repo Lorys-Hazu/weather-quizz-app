@@ -1,0 +1,21 @@
+{
+  "name": "weather-quizz-app",
+  "version": "1.0.0",
+  "description": "try to guess what time is it worldwild",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lorys-Hazu/weather-quizz-app.git"
+  },
+  "author": "Lorys Aveneau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lorys-Hazu/weather-quizz-app/issues"
+  },
+  "homepage": "https://github.com/Lorys-Hazu/weather-quizz-app#readme",
+  "dependencies": {
+  }
+}

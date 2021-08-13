@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Quizz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <header class="hidden">Score : <span id="scoreCounter">0</span></header>
+    <section class="startScreen">
+        <h1>Welcome to Weather Quizz</h1>
+        <small>try to find what time is it worlwide</small>
+        <div class="startBtn btn">
+            <h4>Start Game !</h4>
+        </div>
+    </section>
+    <section class="gameScreen hidden">
+        <div class="title">
+            <h2>Guess the weather at</h2>
+            <h1 id="location">XXX</h1>
+            <small><span id="country">xxx</span>, <span id="continent">xxx</span></small>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <i class="fas fa-cloud-sun"></i>
+                <h2>Clear</h2>
+            </div>
+            <div class="card">
+                <i class="fas fa-cloud"></i>
+                <h2>Clouds</h2>
+            </div>
+            <div class="card">
+                <i class="fas fa-cloud-rain"></i>
+                <h2>Rain</h2>
+            </div>
+            <div>
+                <div class="card lil">
+                    <i class="fas fa-bolt"></i>
+                    <h2>Thunderstorm</h2>
+                </div>
+                <div class="card lil">
+                    <i class="fas fa-snowflake"></i>
+                    <h2>Snow</h2>
+                </div>
+                <div class="card lil">
+                    <i class="fas fa-haze"></i>
+                    <h2>Haze</h2>
+                </div>
+            </div>
+        </div>
+        <div class="validate btn hidden">Validate</div>
+    </section>
+    <section class="resultScreen hidden">
+        <h1>
+            <span id="isGood">XXX</span> The weather at <span id="city">XXX</span> is <span id="weather">XXX</span>
+        </h1>
+        <div class="restart btn">Restart</div>
+    </section>
+    <section class="loadingScreen hidden">
+        <h1>
+            Loading...
+        </h1>
+    </section>
+    <footer>
+        Powered by <a href="https://openweathermap.org/" title="Open Weather Map">Open Weather Map</a>    
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
