@@ -17,7 +17,7 @@ const cards = document.querySelectorAll('.card')
 
 let randomPlace = "Paris"
 let finalAnswer = "Clear"
-const api_key = "f8a1bcea1f93d9f62738e4a1add3338c";
+const api_key = [PUT_API_KEY_HERE];
 let score = 0;
 let rounds = 0;
 
